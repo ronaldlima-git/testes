@@ -45,6 +45,7 @@ class VeiculoController extends Controller
     {
 
         $data = $request->all();
+//        dd($request->year);
         //$veiculos = Veiculo::all();
         Veiculo::create($data);
         // //Cria um novo objeto

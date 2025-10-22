@@ -25,7 +25,7 @@ Route::get('/', function ()
 Route::resource("/veiculos", VeiculoController::class);
 
 //Criação de uma rota lançando um erro, para saber como ele irá exibir
-Route::get('/teste_erro', function()
+/* Route::get('/teste_erro', function()
 {
     throw new Exception('-- Essa é uma mensagem padrão de erro para teste --');
-});
+});*/
